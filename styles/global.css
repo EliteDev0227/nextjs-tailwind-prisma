@@ -1,0 +1,19 @@
+.btn {
+  @apply text-white rounded shadow py-2;
+}
+.btn-blue {
+  @apply bg-blue-500;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+.btn-green {
+  @apply bg-green-500;
+}
+.btn-green:hover {
+  @apply bg-green-700;
+}
+
+.content-wrapper {
+  @apply rounded-lg shadow px-10 py-8 m-8;
+}
