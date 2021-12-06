@@ -11,15 +11,9 @@ export default function Home() {
       </Head>
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <PageHeader title="foo" description="lorem ipsum" />
-        {/* TODO add list of form ids */}
-        {/* TODO add button to make new form */}
+        {/* TODO add FormBuilder component */}
+        {/* TODO add link back to index */}
       </div>
     </div>
   );
-}
-
-export async function getServerSideProps(context) {
-  return {
-    props: {}, //TODO load list of forms
-  };
 }
