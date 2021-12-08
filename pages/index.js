@@ -23,8 +23,6 @@ export default function Home(props) {
       </Head>
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <PageHeader title="Forms" description="List of forms" />
-        {/* TODO add list of form ids */}
-        {/* TODO add button to make new form */}
         <div className="content-wrapper">
           <div className="flex flex-col gap-y-6">
             {

@@ -34,7 +34,6 @@ export default function Home(props) {
       </Head>
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <PageHeader title="Form Widget" description="Create a form for your site" />
-        {/* TODO add FormBuilder component */}
         <div className="content-wrapper">
           <div className="flex flex-col">
               <label className="text-sm">Placeholder Text</label>
@@ -55,7 +54,6 @@ export default function Home(props) {
           </div>
 
         </div>
-        {/* TODO add link back to index */}
         <div className="text-center text-sm text-gray-600">
           <Link href="/">
             <a>Go Back</a>
